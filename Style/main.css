@@ -196,6 +196,7 @@
     padding-left: 50px;
     flex: 6;
     justify-content: center;
+    bottom: 10px !important;
 
 }
 .about__main--right--block__title {
@@ -216,12 +217,12 @@
 .about__main--right--block__details p {
     font-size: 1.6rem;
     color: var(--black-color);
-    line-height: 2.4rem;
-    margin: 5px 0;
+    line-height: 2rem;
+    margin: 2px 0;
 }
 .about__main--right--block__details span a {
     color: var(--primary-color);
-text-decoration: underline;
+    text-decoration: underline;
 }
 .btn--contactme-medium {
     width: 300px !important   ;
@@ -235,22 +236,24 @@ text-decoration: underline;
 #projects {
     display: block;
     position: relative;
-    padding: 0 80px;
-    height: auto;
-    width: auto;
+    height: 100%;
     width: 100%;
-    height: 100vh;
+}
+.projects_container {
+    display: flex;
+    margin: auto;
 }
 .projects--card {
     position: relative;
     display: block;
-    width: 300px;
+    max-width: 300px;
     height: 535px;
     background-color: var(--white-color);
     border: 1px solid white;
     border-radius: 20px;
     /* overflow: hidden; */
     transition: transform ease-in-out 0.1s;
+    margin: 20px auto !important;
 }
 .projects--card:hover {
     transform: translateX(1px);

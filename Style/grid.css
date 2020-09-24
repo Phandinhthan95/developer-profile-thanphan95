@@ -1,63 +1,25 @@
-
-.grid {
-    max-width: 1368px;
-    width: 100%;
-    display: block;
-    padding: 0;
-     margin: 0 auto;
-}
 .grid.wide {
-    max-width: 1208px;
+    display: block ;
+    justify-items: left;
+    align-items: center;
     margin: 0 auto;
+    padding: 0;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
-
-/* .row.no-gutters {
-    margin-left: 0;
-    margin-right: 0;
-}
-
-.row.no-gutters .col {
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 20px;
-} */
-
 /* flex: flex-grow flex-shrink flex-basis|auto|initial|inherit; */
 
 /* PC resolution */
-@media (min-width: 1024px) {
+@media (min-width: 1240px) {
     .wide {
         
-        width: 1020px;
-    
+        max-width: 1208px ;
     }
-    .row {
-        margin-left: -12px;
-        margin-right: -12px;
-    }
-
-    .row.sm-gutter {
-        margin-left: -5px;
-        margin-right: -5px;
-    }
-
-    .col {
-        padding-left: 12px;
-        padding-right: 12px;
-    }
-
-    .row.sm-gutter .col {
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-
     .l-0 {
         display: none;
     }
@@ -76,6 +38,7 @@
     .l-11,
     .l-12 {
         display: block;
+        margin: 0 auto;
     }
 
     .l-1 {
@@ -190,21 +153,10 @@
 }
 
 /* Tablet - PC low resolution */
-@media (min-width: 760px) and (max-width: 1024px) {
+@media (min-width: 760px) and (max-width: 1239px) {
     .wide {
-        width: 800px;
+        width: 900px ;
     }
-
-    .row {
-        margin-left: -8px;
-        margin-right: -8px;
-    }
-
-    .col {
-        padding-left: 8px;
-        padding-right: 8px;
-    }
-
     .m-0 {
         display: none;
     }
@@ -222,6 +174,7 @@
     .m-11,
     .m-12 {
         display: block;
+        margin: 0 auto;
     }
 
     .m-1 {
@@ -332,18 +285,8 @@
 /* Mobile */
 @media (max-width: 760px) {
     .wide {
-        width: 684px;
+        width: 684px ;
     }
-    .row {
-        margin-left: -8px;
-        margin-right: -8px;
-    }
-
-    .col {
-        padding-left: 8px;
-        padding-right: 8px;
-    }
-
     .s-0 {
         display: none;
     }
@@ -361,6 +304,7 @@
     .s-11,
     .s-12 {
         display: block;
+        margin: 0 auto;
     }
 
     .s-1 {
