@@ -4,18 +4,24 @@
     --black-color: #000;
     --spacing: 0.4rem;
     --text-normal-color: #fff;
+    
 }
 
 * {
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 
 html {
     /* HACK  */
     font-size: 62.5%;
     line-height: 1.6rem;
-    font-family: "Roboto", sans-serif;
-    box-sizing: border-box;
+
+    font-family: 'Lato',
+    sans-serif;
+    max-width: 1268px;
+    margin-left: 80px;
+    margin-right: 80px;
+
 }
 h1,
 h2,
@@ -32,7 +38,21 @@ a {
 p {
     font-size: 1.6rem;
 }
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+}
 
+html {
+
+}
+
+body {
+    background-color: #332c38;
+    margin: 0;
+}
 /* Button Style */
 
 .btn {

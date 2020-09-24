@@ -1,19 +1,4 @@
-*,
-::after,
-::before {
-    margin: 0;
-    padding: 0;
-}
-html {
-    font-size: 62.5%;
-    line-height: 1.6rem;
-   font-family: 'Lato',sans-serif;
-    box-sizing: border-box;
-}
-body {
-    background-color: #332c38;
-    margin: 0;
-}
+
 /* Home */
 #home {
     display: flex;
@@ -381,6 +366,12 @@ text-decoration: underline;
 
 /* Skills */
 #skills {
-    
+     display: flex;
+     flex-direction: column;
+     height: 100vh;
+     left: 150px;
+     right: 150px;
 }
-
+.skill-icon {
+    width: 100px !important;
+}

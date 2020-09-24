@@ -4,7 +4,7 @@
     padding: 0;
 }
 .grid .wide { 
-  width: 1218px !important;
+  width: 1218px ;
   margin: 0 auto;
   /* padding: 80; */
 
@@ -12,9 +12,7 @@
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -54px;
-    margin-right: -54px;
-  
+    justify-content: space-between;
 }
 
 .row.no-gutters {
