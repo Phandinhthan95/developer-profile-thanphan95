@@ -4,14 +4,12 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
-    left: 150px;
-    right: 150px;
 }
 
 #home>nav {
     display: flex;
     justify-content: center;
-    height: 64px;
+    height: 64px;   
 }
 
 #home>nav>ul {
@@ -122,6 +120,7 @@
     display: block;
     flex: 4;
     align-items: center;
+    margin-top: 30px;
 }
 
 #home .home__main--right--block--img {
@@ -147,7 +146,6 @@
     position: relative;
     width: 100vw;
     height: 90vh;
-     height: 100%;
      display: flex;
      margin: 0 auto;
      position: relative;
