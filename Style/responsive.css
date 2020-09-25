@@ -15,4 +15,17 @@
     #home>nav>ul {
         display: none;
     }
+    #home .home__main {
+        flex-direction: column;
+    }
+    .home__main--left--block__fullname h2 {
+        font-size: 2rem;
+    }
+    .home__main--left--block__firstintro {
+        text-align: center;
+    }
+    #home .home__main--right--block {
+        margin: 0 auto;
+        padding-top: 70px;
+    }
 }
