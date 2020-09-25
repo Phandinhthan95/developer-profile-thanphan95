@@ -13,9 +13,9 @@
 /* flex: flex-grow flex-shrink flex-basis|auto|initial|inherit; */
 
 /* PC high performance */
-@media (min-width: 1240px) {
+@media (min-width: 1024px) {
     .wide {  
-        max-width: 1208px ;
+        max-width: 1000px ;
     }
     .l-0 {
         display: none;
@@ -150,7 +150,7 @@
 }
 
 /*PC low resolution */
-@media (min-width: 769px) and (max-width: 1239px) {
+@media (min-width: 769px) and (max-width: 1023px) {
     .wide {
         width: 754px ;
     }
