@@ -368,10 +368,11 @@
 #skills {
      display: flex;
      flex-direction: column;
-     height: 100vh;
+     height: fit-content;
      left: 150px;
      right: 150px;
-     background-color: #fff;
+     background-color: #fff ;
+     
 }
 #skills p {
     font-size: 1.6rem;
@@ -389,16 +390,28 @@
     line-height: 2.4rem;
 }
 .skills-card {
+    display: flex;
+    position: relative;
      border: 7px solid #39333e;
      border-radius: 25px;
      margin: 2rem 0;
      box-shadow: 5px 5px 45px -15px #39333e;
+     padding: 0 30px;
+     flex: 1;
+     padding: auto 20px;
+
+
+     
+
 }
 
 .skills--cards__skill--list {
    display: flex;
    flex-grow: 1;
    flex-direction: column;
+   justify-content: space-between;
+  padding: auto 20px;
+  margin: 0 auto;
 }
 .group_name-skills {
     margin: 2.4rem ;
