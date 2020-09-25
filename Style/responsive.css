@@ -50,7 +50,7 @@
         text-align: center;
     }
 
-    #home .home__main--right--block {
+    #home .home__main--right--block  {
         margin: 0 auto;
         /* padding-top: 40px; */
     }
@@ -63,9 +63,16 @@
         height: fit-content;
     }
     #about .about__main--right--block {
-        margin: 0;
-        padding: 0 auto;
+        display: block;
+        justify-content:center;
+        margin: 0 auto;
+        padding-left: unset;
+        
     }
+    #about .about__main--left--block {
+        justify-content: center;
+    }
+    
 
 }
 
