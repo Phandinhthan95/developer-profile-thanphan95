@@ -147,7 +147,8 @@
     position: relative;
     width: 100vw;
     height: 90vh;
-    margin: 0 auto;    
+    margin: 0 auto;   
+    
 }
 #about .about__main {
     height: 100%;
@@ -156,12 +157,14 @@
     position: relative;
     top: 40px;
     bottom: 30px;
+    
 }
 /* About Left-block */
 #about .about__main--left--block {
     display: flex;
     flex: 4;
     align-items: center;
+    left: 80px;
 }
 
 #about .about__main--left--block--img {
@@ -368,7 +371,37 @@
      height: 100vh;
      left: 150px;
      right: 150px;
+     background-color: #fff;
+}
+#skills p {
+    font-size: 1.6rem;
 }
 .skill-icon {
+    display: block;
+    height: 105px; /* sẽ responsive*/
+    margin: 2rem auto;
     width: 100px !important;
+    padding: 2rem;
 }
+.skills-title {
+    margin-bottom: 7rem;
+    text-align: center;
+    line-height: 2.4rem;
+}
+.skills-card {
+     border: 7px solid #39333e;
+     border-radius: 25px;
+     margin: 2rem 0;
+     box-shadow: 5px 5px 45px -15px #39333e;
+}
+
+.skills--cards__skill--list {
+   display: flex;
+   flex-grow: 1;
+   flex-direction: column;
+}
+.group_name-skills {
+    margin: 2.4rem ;
+    text-align: center;
+}
+
