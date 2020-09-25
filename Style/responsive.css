@@ -27,6 +27,7 @@
 
     #home .home__main {
         margin: 0 10px;
+        height: fit-content;
     }
 
     .hide-on-mobile-tablet {
@@ -51,12 +52,21 @@
 
     #home .home__main--right--block {
         margin: 0 auto;
-        padding-top: 40px;
+        /* padding-top: 40px; */
     }
 
     .home__main--left--block__contactlist {
         justify-content: center;
     }
+    #about {
+        flex-direction: column-reverse;
+        height: fit-content;
+    }
+    #about .about__main--right--block {
+        margin: 0;
+        padding: 0 auto;
+    }
+
 }
 
 @media (max-width: 375px) {
@@ -70,8 +80,8 @@
         display: flex;
         margin-left: 10px;
     }
-    .home__main--right--block {
-        padding: 5px 5px 5px 15px;
+    #home .home__main--right--block {
+        padding: 25px 5px 25px 15px;
     }
     .underline {
         margin-left: 20px;

@@ -147,9 +147,7 @@
     position: relative;
     width: 100vw;
     height: 90vh;
-     display: flex;
-     margin: 0 auto;
-     position: relative;
+    margin: 0 auto;    
 }
 #about .about__main {
     height: 100%;
