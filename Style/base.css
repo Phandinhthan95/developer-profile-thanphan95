@@ -4,7 +4,11 @@
     --black-color: #000;
     --spacing: 0.4rem;
     --text-normal-color: #fff;
-    
+    /* Home */
+    --home--right--block-img-height- : 400px;
+    --home--right--block-img-width- : 400px;
+    --border-radius-img-home-: 20px;
+    --margin-img-home-: -30px;
 }
 
 * {

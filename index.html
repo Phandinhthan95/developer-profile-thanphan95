@@ -9,6 +9,8 @@
   <link href="./Style/main.css" rel="stylesheet" />
   <link href="./Style/base.css" rel="stylesheet" />
   <link href="./Style/grid.css" rel="stylesheet" />
+  <link href="./Style/responsive.css" rel="stylesheet" />
+
 
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/brands.css"
@@ -20,8 +22,8 @@
 
 <body>
   <section id="home">
-    <nav>
-      <ul>
+    <nav >
+      <ul class="hide-on-mobile-tablet">
         <li>
           <a href="#">Home</a>
         </li>
@@ -39,7 +41,7 @@
         </li>
       </ul>
     </nav>
-    <div class="home__main">
+    <div class="home__main" >
       <!-- Home-left-block -->
       <div class="home__main--left--block">
         <div class="home__main--left--block__top--line underline">
@@ -94,8 +96,6 @@
     </div>
   </section>
   <section id="about">
-        <div class="about__main">
-        
           <!-- About-left-block -->
           <div class="about__main--left--block">
             <div class="about__main--left--block--img">
@@ -125,7 +125,7 @@
             </button>
       
             </div>
-        </div>
+        
   </section>
   <section id="projects ">
     <div class="projects__titile title">
@@ -135,9 +135,9 @@
         </div>
     </div>
    
-    <div class="grid wide projects_container">
+    <div class="grid wide projects_container intension">
         <div class="row">
-          <div class="s-12 m-6 l-4">
+          <div class="s-12 m-6 l-4 gutter">
             <div class="projects--card">
       
               <div class="projects__img" style="
@@ -167,7 +167,7 @@
               </div>
             </div>
           </div>
-          <div class="s-12 m-6 l-4">
+          <div class="s-12 m-6 l-4 gutter">
             <div class="projects--card">
           
               <div class="projects__img" style="
@@ -198,7 +198,7 @@
               </div>
             </div>
           </div>
-          <div class="s-12 m-6 l-4">
+          <div class="s-12 m-6 l-4 gutter">
             <div class="projects--card">
           
               <div class="projects__img" style="
@@ -232,7 +232,7 @@
           
             </div>
           </div>
-          <div class="s-12 m-6 l-4">
+          <div class="s-12 m-6 l-4 gutter">
             <div class="projects--card">
           
               <div class="projects__img" style="

@@ -1,29 +1,18 @@
-
-
-/* PC*/
-@media (min-width: 1024px) {
-    .hide-on-pc {
+@media (max-width: 768px) {
+    :root {
+        --border-radius-img-home-: 15px;
+          --home--right--block-img-height-: 300px;
+          --home--right--block-img-width- : 300px;
+          --margin-img-home-: -20px ;
+         
+    }
+    #home .home__main {
+        margin: 0 10px;
+    }
+    .hide-on-mobile-tablet {
+        display: none;
+    }    
+    #home>nav>ul {
         display: none;
     }
-    
-}
-/* Tablet */
-@media (min-width: 760px) and (max-width: 1023px) {
-    .hide-on-tablet {
-        display: none;
-    }
-     .html {
-         font-size: 50%;
-     }
-}
-
-/* Moblie */
-@media (max-width: 759px) {
-    .hide-on-tablet {
-        display: none;
-    }
-     .html {
-         font-size: 40%;
-     }
-
 }
