@@ -9,7 +9,9 @@
     --home--right--block-img-width- : 400px;
     --border-radius-img-home-: 20px;
     --margin-img-home-: -30px;
+    --text-color-: #332c38;
 }
+
 
 * {
     box-sizing: border-box;

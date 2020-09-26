@@ -1,13 +1,18 @@
+@media (min-width: 1025px) {
 
+}
 @media (max-width: 1024px) {
 :root {
     --border-radius-img-home-: 15px;
     --home--right--block-img-height-: 300px;
     --home--right--block-img-width-: 300px;
     --margin-img-home-: -20px;
-
 }
 
+.skills--cards__skill--list {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 }
 @media (max-width: 900px){
     .home__main--left--block__fullname h1 {
@@ -83,6 +88,10 @@
     #about__main--right--block__details p{
         line-height: unset;
     }
+        .skills-card {
+            height: 80vh;
+            width: max-content ;
+        }
 }
 
 @media (max-width: 375px) {
