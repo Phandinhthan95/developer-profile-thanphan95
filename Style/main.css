@@ -38,6 +38,7 @@
     color: var(--primary-color);
 }
 
+
 #home>div {
     display: flex;
     flex: 1;
@@ -371,15 +372,35 @@
      flex-direction: column;
      background-color: #fff ;
 }
+
+.skill__row {
+    justify-content: center;
+}
+
+.skills-container {
+    margin: 10px auto;
+}
+
+.skills-card {
+    display: block !important;
+    position: relative;
+    border: 5px solid #39333e;
+    border-radius: 25px;
+    box-shadow: 5px 5px 25px -15px #39333e;
+    margin: 10px 20px !important;
+    height: fit-content;
+    transition: transform ease-in-out 0.1s;
+    width: 300px !important;
+}
 #skills p {
     font-size: 1.6rem;
 }
 .skill-icon {
     display: block;
     height: 105px; /* sẽ responsive*/
-    margin: 1rem 60px;
+    margin: 1rem 80px;
     width: 100px ;
-    padding: 1rem;
+    padding: 2rem;
 }
 .skills-title {
     margin-bottom: 7rem;
@@ -391,25 +412,7 @@
 .skills-title__underline {
     margin-left: calc(50% - 4rem);
 }
-.skill__row {
-    justify-content: space-between;
-}
 
-.skills-container {
-    margin: 10px 80px;
-}
-.skills-card {
-    display: block !important;
-    position: relative;
-    border: 5px solid #39333e;
-    border-radius: 25px;
-    box-shadow: 5px 5px 25px -15px #39333e;
-    margin: 10px 20px!important ;
-    max-width: 250px;
-    height: fit-content;
-    transition: transform ease-in-out 0.1s; 
-    width: 300px !important;
-}
 
 .skills-card:hover {
     transform: translateX(1px);
@@ -430,6 +433,7 @@
     margin: 2.4rem ;
     text-align: center;
 }
+
 
 
 /* --------------------------Timeline-----------------------*/
@@ -543,6 +547,7 @@
     justify-content: space-between !important;
     margin: auto;
 }
+
     
 .blog--card {
     display: block;
