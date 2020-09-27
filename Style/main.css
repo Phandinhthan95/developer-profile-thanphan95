@@ -442,6 +442,8 @@
 
 #timeline h2 {
     color: white;
+    padding: 20px;
+
 }
 
 #timeline div.right-block {
@@ -503,11 +505,12 @@
 #blog {
     display: block;
     align-items: center;
-    background-color: lawngreen;
+    background-color:#0C4592;
     /* height: 100vh; */
 }
 
 #blog h2 {
+    padding: 20px;
     color: white;
 }
 #blog .underline {
@@ -533,7 +536,8 @@
     margin-right: -20px;
 }
 .blog__row a {
-    margin: 0 auto;
+    margin: 30px auto;
+
 }
 .blog__container {
     justify-content: space-between !important;
@@ -617,3 +621,22 @@
 .small {
     color: #888785;
 }
+
+/* Footer---------------------------------- */
+#footer {
+    display: block;
+    padding-bottom: 4rem;
+    background: var(--black-color);
+    text-align: center;
+    place-items: center;
+    color: var(--white-color);
+}
+#footer .footer__contactlist {
+    padding: 50px;
+}
+#footer p {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+   
