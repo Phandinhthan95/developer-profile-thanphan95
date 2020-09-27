@@ -235,7 +235,7 @@
     display: block;
     position: relative;
     height: 100%;
-    width: 100%;
+    width: 100vw;
 }
 .projects_container {
     display: flex;
@@ -436,8 +436,8 @@
 #timeline {
     display: flex;
     flex-direction: column;
-    height: 100vh;
     align-items: center;
+    padding-bottom: 30px;
 }
 
 #timeline h2 {
@@ -495,22 +495,125 @@
     margin-left: -18px;
 }
 
-#timeline div.corner-bottom-right {
-    width: 300px;
-    margin-right: -300px;
-    height: 32px;
-    border-bottom-right-radius: 32px;
-    border-right: 2px dashed #f64c72;
-    border-bottom: 2px dashed #f64c72;
+/* ---------End Timeline----------*/
+
+
+
+/* ---------------Blog----------------- */
+#blog {
+    display: block;
+    align-items: center;
+    background-color: lawngreen;
+    /* height: 100vh; */
 }
 
-#timeline div.corner-top-left {
-    width: 300px;
-    margin-top: -2px;
-    margin-left: -300px;
-    height: 32px;
-    border-top-left-radius: 32px;
-    border-left: 2px dashed #f64c72;
-    border-top: 2px dashed #f64c72;
+#blog h2 {
+    color: white;
 }
+#blog .underline {
+    width: 5rem;
+    height: 0.25rem;
+    margin-bottom: 1.25rem;
+    background: var(--primary-color);
+    margin-left: auto;
+    margin-right: auto;
+}
+#blog .blog__center {
+     width: 90vw;
+     margin: 0 auto;
+     max-width: 1170px;
+}
+.row {
+    justify-items: center;
+}
+.row.blog__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.blog__row a {
+    margin: 0 auto;
+}
+.blog__container {
+    justify-content: space-between !important;
+    margin: auto;
+}
+    
+.blog--card {
+    display: block;
+    color: rgb(70, 68, 68);
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    border: 6px solid #332c38;
+    /* height: 35.5rem; */
+    box-shadow: 5px 5px 45px -15px black;
+}
+.blog--card-header {
+    display: block;
+    width: 100%;
+}
+.blog--card-header img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    line-height: 2.4;
+}
+.blog--card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px;
+    min-height: 250px !important;
+    margin: 0;
+    font-size: 1rem;
 
+}
+.Technologycard {
+    background-color: #92d4e4;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 12px;
+    margin: 0;
+    padding: 2px 10px;
+}
+.blog--card-body h4 {
+    margin: 10px 0;
+    letter-spacing: 0.1rem;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+}
+.blog--card-body p {
+
+   font-size: 1.4rem;
+   margin: 0 0 20px 0;
+   font-weight: 500;
+   min-height: 169px;
+}
+.namecard {
+    display: flex;
+    margin-top: auto;
+}
+.namecard img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+    display: block;
+}
+.namecard__info {
+    display: block;
+    font-weight: 600;
+}
+.namecard__info h5{
+    line-height: 2.4rem;
+    font-weight: 600;
+    margin: 0;
+}
+.small {
+    color: #888785;
+}

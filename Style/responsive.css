@@ -1,8 +1,11 @@
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
     
     .skills--cards__skill--list {
         width: 300px !important;    
     }
+    .blog__center {
+        width: 95vw;}
+    
 }
 @media (max-width: 1023px) {
 :root {
@@ -91,9 +94,24 @@
     #about__main--right--block__details p{
         line-height: unset;
     }
-        .skills-card {
+    .skills-card {
             height: 80vh;
-        }
+    }
+    #timeline div.right-block ,
+    #timeline div.left-block  {
+        width: 400px;
+    }
+    .corner-bottom-right,
+    .corner-top-right {
+        width: 200px;
+        margin-right: -200px ;
+    }
+    .corner-top-left,
+    .corner-bottom-left
+     {
+         width: 200px;
+         margin-left: -200px;
+    }
 }
 
 @media (max-width: 375px) {
@@ -117,5 +135,21 @@
         width: 8rem;
         height: 0.25rem;
     }
+      #timeline div.right-block,
+      #timeline div.left-block {
+          width: 300px;
+      }
+
+      .corner-bottom-right,
+      .corner-top-right {
+          width: 150px;
+          margin-right: -150px;
+      }
+
+      .corner-top-left,
+      .corner-bottom-left {
+          width: 150px;
+          margin-left: -150px;
+      }
     
 }

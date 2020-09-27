@@ -143,6 +143,54 @@ body {
     }
 }
 
+/* ----------Timeline Corner */
+.corner-bottom-right {
+    width: 300px;
+    margin-right: -300px;
+    height: 30px;
+    border-bottom-right-radius: 30px;
+    border-right: 2px dashed #f64c72;
+    border-bottom: 2px dashed #f64c72;
+}
+
+.corner-top-left {
+    width: 300px;
+    margin-top: -2px;
+    margin-left: -300px;
+    height: 30px;
+    border-top-left-radius: 30px;
+    border-left: 2px dashed #f64c72;
+    border-top: 2px dashed #f64c72;
+}
+
+.corner-bottom-left {
+    width: 300px;
+    margin-left: -300px;
+    height: 30px;
+    border-bottom-left-radius: 30px;
+    border-left: 2px dashed #f64c72;
+    border-bottom: 2px dashed #f64c72;
+
+}
+
+.corner-top-right {
+    width: 300px;
+    margin-top: -2px;
+    margin-right: -300px;
+    height: 30px;
+    border-top-right-radius: 30px;
+    border-right: 2px dashed #f64c72;
+    border-top: 2px dashed #f64c72;
+}
+/* --------End Corner */
+/* -----------------------Blog------------------ */
+.section-title {
+    margin-bottom: 4rem;
+    text-align: center;
+    font-size: 1rem;
+}
+ 
+        
 /* Modal */
 .modal {
     position: fixed;
