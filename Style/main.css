@@ -365,13 +365,10 @@
     margin-left: 10px;
 }
 
-/* Skills */
+/* --------------------Skills------------------------------ */
 #skills {
      display: flex;
      flex-direction: column;
-     height: auto;
-     left: 150px;
-     right: 150px;
      background-color: #fff ;
 }
 #skills p {
@@ -380,9 +377,9 @@
 .skill-icon {
     display: block;
     height: 105px; /* sẽ responsive*/
-    margin: 3.2rem auto;
+    margin: 1rem 60px;
     width: 100px ;
-    padding: 2rem;
+    padding: 1rem;
 }
 .skills-title {
     margin-bottom: 7rem;
@@ -394,19 +391,24 @@
 .skills-title__underline {
     margin-left: calc(50% - 4rem);
 }
+.skill__row {
+    justify-content: space-between;
+}
+
 .skills-container {
-    margin: auto 80px;
+    margin: 10px 80px;
 }
 .skills-card {
-    display: block;
+    display: block !important;
     position: relative;
-    border: 7px solid #39333e;
+    border: 5px solid #39333e;
     border-radius: 25px;
-    box-shadow: 5px 5px 45px -15px #39333e;
-    margin: 20px auto;
-    width: 30%;
-    transition: transform ease-in-out 0.1s;
-    
+    box-shadow: 5px 5px 25px -15px #39333e;
+    margin: 10px 20px!important ;
+    max-width: 250px;
+    height: fit-content;
+    transition: transform ease-in-out 0.1s; 
+    width: 300px !important;
 }
 
 .skills-card:hover {
@@ -422,16 +424,14 @@
       display: flex;
       flex-grow: 1;
       flex-direction: column;
-      padding: auto 20px;
       margin: 0 auto;
 }
 .group_name-skills {
     margin: 2.4rem ;
     text-align: center;
 }
-.skill-row {
-    
-}
+
+
 /* --------------------------Timeline-----------------------*/
 #timeline {
     display: flex;

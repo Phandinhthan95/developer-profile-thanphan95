@@ -1,8 +1,4 @@
 @media screen and (min-width: 1024px) {
-    
-    .skills--cards__skill--list {
-        width: 300px !important;    
-    }
     .blog__center {
         width: 95vw;}
     
