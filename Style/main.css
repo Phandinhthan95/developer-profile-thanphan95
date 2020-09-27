@@ -260,11 +260,11 @@
     display: block;
     width: 100%;
     position: relative;
-    padding: 60px 0;
     font-size: 1.6rem;
     text-align: center;
    line-height: 4rem;
    color: var(--white-color);
+   padding: 20px;
 }
 .projects__titile--underline {
     position: absolute;
