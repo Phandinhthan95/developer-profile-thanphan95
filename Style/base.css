@@ -108,7 +108,16 @@ body {
     height: 0.5rem;
     background: var(--primary-color);      
 }
-
+.toggle {
+    width: 100%;
+    padding: 10px 20px;
+    background: #332c38;
+    text-align: right;
+    box-sizing: border-box;
+    color: var(--primary-color);
+    font-size: 3rem;
+    display: none;
+}
 /* Animation */
 @keyframes fadeIn {
     from {
