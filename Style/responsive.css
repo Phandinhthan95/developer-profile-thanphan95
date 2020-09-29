@@ -31,7 +31,9 @@
     }
 }
 @media (max-width: 769px) {
-    
+    #home>nav>ul {
+        display: none;
+    }
 
     #home .home__main {
         margin: 0 10px;
@@ -101,10 +103,7 @@
          width: 200px;
          margin-left: -200px;
     }
-    .toggle {
-        display: block;
-        height: 50px;
-    }
+   
 }
 
 @media (max-width: 375px) {
