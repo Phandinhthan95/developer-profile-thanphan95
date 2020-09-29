@@ -3,8 +3,7 @@
           $('.toggle').click(function () {
               $('.toggle').toggleClass('active'),
               $('.overlay').toggleClass('active'),
-              $('.menubar__toggle').toggleClass('active')
-              
+            $('.menubar').toggleClass('active')  
           })
-      }) 
+      })
      

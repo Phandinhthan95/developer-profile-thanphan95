@@ -31,10 +31,9 @@
     }
 }
 @media (max-width: 769px) {
-    #home>nav>ul {
-        display: none;
+    .toggle {
+          visibility: visible;
     }
-
     #home .home__main {
         margin: 0 10px;
         height: fit-content;
