@@ -110,16 +110,17 @@ body {
 }
 /* ------------TOGGLE MENU BAR */
 .toggle {
-    width: 10%;
+    width: 10px;
     position: absolute;
     top: 0;
     right: 0;
+    height: 10px;
     background: #332c38;
     text-align: right;
     box-sizing: border-box;
     color: var(--primary-color);
     font-size: 3rem;
-    display: none;
+    visibility: hidden;
     margin: 5px;
 }
 .toggle.active {
