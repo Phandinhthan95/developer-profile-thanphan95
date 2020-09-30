@@ -151,13 +151,14 @@ body {
     height: 100%;
     visibility: hidden;
     z-index: 1;
+    overflow: auto;
 
 
 }
 .menubar.active 
 {
     visibility:visible;
-    z-index: 1;
+    
 }
 .menubar ul {
     position: absolute;
