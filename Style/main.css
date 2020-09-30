@@ -6,7 +6,9 @@
     height: 100vh;
     position: relative;;
 }
-
+#home .aside__bar {
+    display: none;
+}
 #home>nav {
     display: flex;
     justify-content: center;

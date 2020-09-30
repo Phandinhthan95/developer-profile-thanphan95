@@ -125,42 +125,32 @@ body {
 }
 .toggle.active {
     color: white;
-     z-index: 1;
+     z-index: 2;
 }
 .overlay {
     position: fixed;
     top: 0;
     right: 0;
-    padding: 10px 20px;
     text-align: right;
     box-sizing: border-box;
     transition: transform 0.5s;
     /* display:none ; */
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    overflow: auto;
     visibility: hidden;
 
 }
 .overlay.active {
     visibility: visible;
-    transform: scale(100,100);
     display: block;
      z-index: 1.1;
      background: rgba(0, 0, 0, 0.95);
 }
-.menubar{
-    width: 100%;
-    height: 100%;
-    visibility: hidden;
-    z-index: 1;
-    overflow: auto;
 
-
-}
-.menubar.active 
-{
-    visibility:visible;
-    
-}
-.menubar ul {
+.overlay ul {
+    display: block;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -169,14 +159,14 @@ body {
     padding: 0;
     z-index: 1;
 }
-.menubar ul li {
+.overlay ul li {
     list-style: none;
     z-index: 1;
 
 }
-.menubar ul li a {
+.overlay ul li a {
     position: relative;
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 4rem;
     text-transform: uppercase;
     text-decoration: none;
@@ -186,8 +176,10 @@ body {
     font-weight: bold;
     text-shadow: 0 2px 5px rgba(0,0,0,.5);
     z-index: 1;
+    width: 200px;
+    text-align: center;
 }
-.menubar ul li a:before {
+.overlay ul li a:before {
     content: '';
     position: absolute;
     bottom: -5px;
@@ -200,7 +192,7 @@ body {
     transition: transform 0.5s;
     z-index: -1;
 }
-.menubar ul li a:hover:before {
+.overlay ul li a:hover:before {
    transform: scaleX(1);
 }
 
